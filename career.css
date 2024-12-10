@@ -190,14 +190,18 @@ footer{
 div p i{
     color: white;
 }
-@media(max-width:400px){
+@media(max-width:500px){
     header{
-        display: flex;
-        align-items: center;
+        text-align: center;
         flex-direction: column;
         gap: 4px;
+        width: 100%;
+        margin: 0;
         height: fit-content;
         font-size: 10px;
+    }
+    .nav2{
+        display: none;
     }
     .nav{
         display: flex;
